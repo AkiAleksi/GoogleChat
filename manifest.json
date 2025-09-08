@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI Browser Extension",
+  "version": "1.0",
+  "description": "Perus Chrome-laajennus tekoälyagentille.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": []
+}
